@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84B8FFE91CC4DC4700DED883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8FFE81CC4DC4700DED883 /* main.m */; };
-		84B8FFF21CC4DCFD00DED883 /* NSLog+YJLogFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8FFF11CC4DCFD00DED883 /* NSLog+YJLogFactory.m */; };
+		84B8FFF81CC4E39900DED883 /* NSLog+YJLogFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8FFF71CC4E39900DED883 /* NSLog+YJLogFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 /* Begin PBXFileReference section */
 		84B8FFE51CC4DC4700DED883 /* YJLogFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YJLogFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B8FFE81CC4DC4700DED883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B8FFF01CC4DCFD00DED883 /* NSLog+YJLogFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLog+YJLogFactory.h"; sourceTree = "<group>"; };
-		84B8FFF11CC4DCFD00DED883 /* NSLog+YJLogFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLog+YJLogFactory.m"; sourceTree = "<group>"; };
+		84B8FFF61CC4E39900DED883 /* NSLog+YJLogFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLog+YJLogFactory.h"; sourceTree = "<group>"; };
+		84B8FFF71CC4E39900DED883 /* NSLog+YJLogFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLog+YJLogFactory.m"; sourceTree = "<group>"; };
+		84B8FFFE1CC4E3AC00DED883 /* YJLogFactory-Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YJLogFactory-Prefix.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +61,30 @@
 		84B8FFE71CC4DC4700DED883 /* YJLogFactory */ = {
 			isa = PBXGroup;
 			children = (
-				84B8FFEF1CC4DCD100DED883 /* Classes */,
+				84B8FFFD1CC4E3AC00DED883 /* Prefix */,
+				84B8FFF51CC4E39900DED883 /* Classes */,
 				84B8FFE81CC4DC4700DED883 /* main.m */,
 			);
 			path = YJLogFactory;
 			sourceTree = "<group>";
 		};
-		84B8FFEF1CC4DCD100DED883 /* Classes */ = {
+		84B8FFF51CC4E39900DED883 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84B8FFF01CC4DCFD00DED883 /* NSLog+YJLogFactory.h */,
-				84B8FFF11CC4DCFD00DED883 /* NSLog+YJLogFactory.m */,
+				84B8FFF61CC4E39900DED883 /* NSLog+YJLogFactory.h */,
+				84B8FFF71CC4E39900DED883 /* NSLog+YJLogFactory.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		84B8FFFD1CC4E3AC00DED883 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				84B8FFFE1CC4E3AC00DED883 /* YJLogFactory-Prefix.h */,
+			);
+			name = Prefix;
+			path = ../../Prefix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B8FFF21CC4DCFD00DED883 /* NSLog+YJLogFactory.m in Sources */,
+				84B8FFF81CC4E39900DED883 /* NSLog+YJLogFactory.m in Sources */,
 				84B8FFE91CC4DC4700DED883 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
