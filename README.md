@@ -1,6 +1,6 @@
 # YJLogFactory
 
-NSLog打印本地化，Unicode自动转化为中文输出。
+NSLog打印优化，Unicode自动转化为中文输出。
 
 优化前
 
