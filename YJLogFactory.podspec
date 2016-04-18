@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     # ―――  Spec Metadata
     s.name         = "YJLogFactory"
     s.version      = "1.0"
-    s.summary      = "NSLog打印本地化，Unicode自动转化为中文输出。"
+    s.summary      = "NSLog打印优化，Unicode自动转化为中文输出。"
     s.homepage     = "https://github.com/937447974/YJLogFactory"
 
     # ―――  Spec License
