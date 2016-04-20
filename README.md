@@ -1,6 +1,24 @@
-# YJLogFactory
+#1 YJLogFactory
 
 NSLog打印优化，Unicode自动转化为中文输出。
+
+#2 导入YJLogFactory
+
+导入YJLogFactory可使用pod导入，相关命令：
+
+```pod
+platform :ios, '6.0'
+pod 'YJLogFactory'
+```
+
+或
+
+```pod
+platform :ios, '6.0'
+pod 'YJLogFactory', :git => 'https://github.com/937447974/YJLogFactory.git'
+```
+
+##3 效果图
 
 优化前
 
