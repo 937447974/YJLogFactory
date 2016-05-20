@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
     # ―――  Spec Metadata
     s.name         = "YJLogFactory"
-    s.version      = "1.0"
+    s.version      = "1.1.0"
     s.summary      = "NSLog打印优化，Unicode自动转化为中文输出。"
     s.homepage     = "https://github.com/937447974/YJLogFactory"
 
@@ -30,11 +30,10 @@ Pod::Spec.new do |s|
     s.source = { :git => "https://github.com/937447974/YJLogFactory.git", :tag => "v#{s.version}" }
 
     # ――― Source Code
-    s.source_files  = "Classes/*.{h,m}"
+    s.dependency 'YJCocoa/CoreServicesLayer/Foundation/Log'
 
     # ――― Build Settrings
     s.frameworks = "Foundation"
-    s.prefix_header_file = 'Prefix/YJLogFactory-Prefix.h'
     s.requires_arc = true
 
 end
