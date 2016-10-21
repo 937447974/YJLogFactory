@@ -1,32 +1,4 @@
-#1 YJLogFactory
-
-NSLog打印优化，Unicode自动转化为中文输出。
-
-#2 导入YJLogFactory
-
-导入YJLogFactory可使用pod导入，相关命令：
-
-```pod
-platform :ios, '6.0'
-pod 'YJLogFactory'
-```
-
-或
-
-```pod
-platform :ios, '6.0'
-pod 'YJLogFactory', :git => 'https://github.com/937447974/YJLogFactory.git'
-```
-
-##3 效果图
-
-优化前
-
-![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2015111701.png)
-
-优化后
-
-![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2015111702.png)
+已弃用，请使用总库YJCocoa。
 
 ----------
 
@@ -52,6 +24,7 @@ YJ技术支持群：557445088
 | ---- | ---- |
 | 2016-04-18 | 1.0上线 |
 | 2016-05-20 | 1.1.0 YJLogFactory转入‘YJCocoa/CoreServicesLayer/Foundation/Log’。|
+| 2016-10-21 | 1.1.1 添加库废弃标示符 |
 
 ##Copyright
 

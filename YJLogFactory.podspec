@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
     # ―――  Spec Metadata
     s.name         = "YJLogFactory"
-    s.version      = "1.1.0"
+    s.version      = "1.1.1"
     s.summary      = "NSLog打印优化，Unicode自动转化为中文输出。"
     s.homepage     = "https://github.com/937447974/YJLogFactory"
 
@@ -30,7 +30,9 @@ Pod::Spec.new do |s|
     s.source = { :git => "https://github.com/937447974/YJLogFactory.git", :tag => "v#{s.version}" }
 
     # ――― Source Code
-    s.dependency 'YJCocoa/CoreServicesLayer/Foundation/Log'
+    s.dependency 'YJCocoa'
+    s.deprecated = true
+    s.deprecated_in_favor_of = "YJCocoa"
 
     # ――― Build Settrings
     s.frameworks = "Foundation"
