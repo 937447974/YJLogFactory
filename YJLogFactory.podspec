@@ -29,13 +29,15 @@ Pod::Spec.new do |s|
     # ――― Source Location
     s.source = { :git => "https://github.com/937447974/YJLogFactory.git", :tag => "v#{s.version}" }
 
-    # ――― Build Settrings
-    s.frameworks = "UIKit", "Foundation"
-    s.requires_arc = true
-
     # ――― Source Code
     s.dependency 'YJCocoa'
     s.deprecated = true
     s.deprecated_in_favor_of = "YJCocoa"
+
+    # ――― Project Linking
+    s.frameworks = "UIKit", "Foundation"
+
+    # ――― Project Settings
+    s.requires_arc = true
 
 end
