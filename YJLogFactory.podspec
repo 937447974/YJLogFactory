@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
 
     # ――― Platform Specifics
     s.platform = :ios
+    s.ios.deployment_target = "6.0"
 
     # ――― Source Location
     s.source = { :git => "https://github.com/937447974/YJLogFactory.git", :tag => "v#{s.version}" }
